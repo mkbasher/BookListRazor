@@ -15,6 +15,6 @@ namespace BookListRazor.Model
 
         }
 
-        public DbSet<Book> Book { get; set; } // Name Book is taken from Book.cs Class
+        public DbSet<Book> Book { get; set; } // <Book> is taken from Book.cs Class
     }
 }

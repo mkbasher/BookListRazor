@@ -37,7 +37,7 @@ function loadDataTable() {
 function Delete(url) {
     swal({
         title: "Are you sure you want to delete this?",
-        test: "Once deleted, you will not be able to recover",
+        text: "Once deleted, you will not be able to recover",
         icon: "warning",
         buttons: true,
         dangerMode: true
